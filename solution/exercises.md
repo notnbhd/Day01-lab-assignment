@@ -17,13 +17,13 @@ Triển khai tất cả TODO trong `template.py`. Chạy `pytest tests/` để k
 python template.py
 ```
 Bạn sẽ thấy output so sánh phản hồi của GPT-4o và GPT-4o-mini.
+---
 === Comparing models ===
 gpt4o_response: Temperature controls the randomness of the model's output by adjusting the probability distribution of the next word, while top_p (nucleus sampling) limits the selection to a subset of the vocabulary that cumulatively represents a specified probability mass, ensuring more coherent and contextually appropriate responses.
 mini_response: Temperature controls the randomness of the output by scaling the probabilities of the predicted words, while top_p (nucleus sampling) limits the selection to the smallest possible set of words whose cumulative probability exceeds a specified threshold, promoting diversity in generated text.
 gpt4o_latency: 2.0383386611938477
 mini_latency: 1.8282639980316162
 gpt4o_cost_estimate: 5.8666666666666665e-05
----
 
 ## Phần 2 — Bài Tập Mở Rộng (1:00–1:30)
 
