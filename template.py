@@ -323,11 +323,11 @@ def format_comparison_table(results: list[dict]) -> str:
 # Entry point for manual testing
 # ---------------------------------------------------------------------------
 if __name__ == "__main__":
-    # test_prompt = "Hãy kể cho tôi một sự thật thú vị về Việt Nam."
-    # print("=== Comparing models ===")
-    # result = compare_models(test_prompt)
-    # for key, value in result.items():
-    #     print(f"{key}: {value}")
+    test_prompt = "Hãy kể cho tôi một sự thật thú vị về Việt Nam."
+    print("=== Comparing models ===")
+    result = compare_models(test_prompt)
+    for key, value in result.items():
+        print(f"{key}: {value}")
 
     print("\n=== Starting chatbot (type 'quit' to exit) ===")
     streaming_chatbot()
